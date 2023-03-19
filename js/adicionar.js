@@ -1,7 +1,7 @@
 
 var adc = document.querySelector('#adc');
 
-// var li =  document.querySelector('#li');
+
 var li =  document.querySelector('.li');
 adc.addEventListener('click', function(e){
     e.preventDefault()
@@ -17,7 +17,7 @@ adc.addEventListener('click', function(e){
 })
 
 function criarLi(dado){
-    // var sucess = document.createElement('i')
+
     var lista = document.querySelector('#ol')
     var li = document.createElement('li')
     li.classList.add('li')
@@ -25,12 +25,10 @@ function criarLi(dado){
     lista.appendChild(li)
     li.appendChild(criarDetails(dado))
     li.appendChild(apagar())
-    // li.appendChild(containerCores('cores'))
     console.log(li)
+
     return li
-    
-    
-   
+
 }
 
 function criarDetails(dado) {

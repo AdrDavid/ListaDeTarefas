@@ -1,25 +1,13 @@
 function containerCores(classe){
     var divCores = document.createElement('div')
-    // divCores.addEventListener('click', function(){
-        
-    //     if(divCores.classList.contains('colorir')){
-    //         divCores.classList.remove('colorir')
-    //     }else{
-    //         divCores.classList.add('colorir')
-    //     }
-    // })
+
 
     divCores.classList.add(classe)
-    // divCores.appendChild(adicionaCores('fa-solid', 'fa-caret-up', 'cima'))
+    
     divCores.appendChild(adicionaCores('dimencoes', 'normal'))
     divCores.appendChild(adicionaCores('dimencoes', 'laranja'))
     divCores.appendChild(adicionaCores('dimencoes', 'verde'))
-    // divCores.appendChild(adicionaCores( 'fa-solid', 'fa-palette', 'branco'))
-   
-    
-
-    
-
+ 
 
     return divCores
 }

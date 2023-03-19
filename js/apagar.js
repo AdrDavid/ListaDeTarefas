@@ -8,7 +8,7 @@ function apagar(){
 
     var ulTodas = document.querySelector('#ol')
     ulTodas.addEventListener('click', function(e){
-    // e.preventDefault()
+    
     var tarefa = e.target
     if(tarefa.classList.contains('lixo')){
         console.log('lixo')
